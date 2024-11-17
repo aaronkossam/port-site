@@ -8,10 +8,10 @@ import { FaCss3 } from "react-icons/fa";
 import { RiTailwindCssFill } from "react-icons/ri";
 const Skill = () => {
   return (
-    <div>
-      <hr className=" h-3 ml-3 mr-3 mb-3"></hr>
+    <div className=" bg-primary">
+      <hr className=" h-3 ml-3 mr-3 mb-3 mt-3"></hr>
 
-      <ul className=" grid grid-cols-2  gap-4 ml-10">
+      <ul className=" grid grid-cols-2  gap-4 ml-14  pb-8  ">
         <a href="https://github.com/aaronkossam">
           {" "}
           <FaReact className=" text-8xl " />

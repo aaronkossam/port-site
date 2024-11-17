@@ -6,6 +6,7 @@ module.exports = {
       colors: {
         primary: "#1A1A1D",
         text: "#FBFBFB",
+        ttr: "#1E201E",
       },
       fontFamily: {
         title: ["Roboto"],

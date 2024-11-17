@@ -1,7 +1,7 @@
 import React from "react";
 const Landpage = () => {
   return (
-    <div className="bg   h-96 -mt-16 bg-no-repeat  lg:h-screen  ">
+    <div className="bg  -mt-16 bg-no-repeat  lg:h-screen pb-4 ">
       {/* //mobile// */}
       <p className=" font-extrabold text-4xl pl-1 pt-24  lg:hidden ">
         <p>Nice to</p>
@@ -21,7 +21,7 @@ const Landpage = () => {
         building accesible web-apps that users love.
       </p>
       <p className="  font-extrabold text-2xl  pl-1 pt-1  ">CONTACT ME</p>
-      <hr className=" bg-green-400 w-36  h-1"></hr>
+      <hr className=" bg-green-400 w-36  ml-1 h-1  "></hr>
     </div>
   );
 };
