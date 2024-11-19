@@ -1,7 +1,7 @@
 import React from "react";
 const Landpage = () => {
   return (
-    <div className="bg  -mt-16 bg-no-repeat  lg:h-screen pb-4 ">
+    <div className="bg  -mt-16 bg-no-repeat lg:h-screen   ">
       {/* //mobile// */}
       <p className=" font-extrabold text-4xl pl-1 pt-24  lg:hidden ">
         <p>Nice to</p>
