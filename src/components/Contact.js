@@ -75,12 +75,14 @@ const Contact = () => {
       </div> */}
 
       {/* {destop} */}
-      <div className=" hidden lg:flex ">
-        <div className=" lg:flex justify-center">
+
+      <div className=" hidden lg:grid grid-cols-2 pt-7">
+        <div>
           <div>
             <h1 className=" text-4xl font-extrabold pt-9 text-center  font-title">
               Contact
             </h1>
+
             <p className=" text-center text-sm pl-1 pr-1 pb-4">
               <p> I would love to hera about your projects and how I</p>
               <p>
@@ -90,7 +92,9 @@ const Contact = () => {
               <p> to you as soon as possible.</p>
             </p>
           </div>
+        </div>
 
+        <div>
           <form className=" grid justify-center pt-5">
             <input
               className=" bg-ttr pb-2  pr-36 outline-none  font-title    mb-5"
@@ -112,20 +116,18 @@ const Contact = () => {
               type=" text"
               placeholder=" MESSAGE"
             ></input>
+            <div className=" pb-7 mb-5 ">
+              <p className="   font-extrabold text-xl  pl-1 pt-1 mt-2 ml-52 ">
+                SEND MESSAGE
+              </p>
+              <hr className=" bg-green-400 w-36   h-1  ml-52 "></hr>
+            </div>
           </form>
         </div>
-
-        <div className=" pb-7">
-          <p className="   font-extrabold text-xl  pl-1 pt-1 mt-2 ml-52 ">
-            SEND MESSAGE
-          </p>
-          <hr className=" bg-green-400 w-36   h-1  ml-52 "></hr>
-        </div>
-
-        <hr className=" mr-7 ml-7 mb-5"></hr>
       </div>
+      <hr className=" mr-44 ml-40 mb-5"></hr>
 
-      <div className=" flex justify-between p-3 mb-5 mt-2">
+      <div className=" flex justify-between  mr-40 ml-40 pb-9 ">
         <p className=" text-2xl  font-extrabold text-text">akossam</p>
 
         <div className="flex gap-3 text-text mb-4  ">
